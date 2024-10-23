@@ -50,6 +50,8 @@ Below is the expected object to send to create a School
 
 Monitoring is implemented with ZIPLIN and a docker-compose file is provided to help you get started 
 with Postgresql and PgAdmin 4.
+ZIPLIN: http://localhost:9411/zipkin
+PgAdmin: http://localhost:5050/browser/
 
 To Use codebase:
 - Add each microservice as a module into a suite of services and run the in the following order.
