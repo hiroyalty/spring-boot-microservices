@@ -12,7 +12,7 @@ spring:
     name: students
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/student
+    url: jdbc:postgresql://localhost:5432/students
     username: gbolaga
     password: ayokunle
   jpa:
@@ -20,3 +20,7 @@ spring:
       ddl-auto: 'update'
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+management:
+  tracing:
+    sampling:
+      probability: 1.0
