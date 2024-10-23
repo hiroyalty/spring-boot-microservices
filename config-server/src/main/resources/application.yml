@@ -3,7 +3,7 @@ server:
 
 spring:
   profiles:
-    active: native
+    active: native # To automatically use the native active profile.
   application:
     name: config-server
   cloud:
